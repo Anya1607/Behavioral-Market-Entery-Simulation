@@ -8,11 +8,12 @@ A computational behavioral economics simulation modeling a three-firm market ent
 
 In a competitive market with three symmetric firms (A, B, and C), each firm decides simultaneously whether to **Enter (`1`)** or **Stay Out (`0`)**:
 
-| Market Scenario        | Player A's Choice | Rivals' Choices     | Cash Payoff |
-| Monopoly               | Enter             | Both Stay Out       |.  +$1,000   |
-| Duopoly (Shared)       | Enter             | One Enters, One Out |    $100     |
-| Overcrowded Crash      | Enter             | Both Enter          |   -$500     |
-| Outside Option         | Stay Out          | Any.                |     $0      |
+| Market Scenario | Player A's Choice | Rivals' Choices | Cash Payoff |
+| :--- | :---: | :---: | :---: |
+| **Monopoly** | Enter | Both Stay Out | **+$1,000** |
+| **Duopoly (Shared)** | Enter | One Enters, One Out | **+$100** |
+| **Overcrowded Crash** | Enter | Both Enter | **-$500** |
+| **Outside Option** | Stay Out | Any | **$0** |
 
 ### Core Mechanics
 * **Quadratic Loss Penalty:** Positive gains are evaluated linearly ($Utility(x) = x$), while financial losses are penalized quadratically and multiplied by the fear factor (lambda): ($U(x) = -\lambda x^2$) to reflect intensifying psychological aversion to losses.
