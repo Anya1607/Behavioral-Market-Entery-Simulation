@@ -33,9 +33,9 @@ The graph shows that as the loss-aversion coefficient ($\lambda$) increases, the
 * **High Loss Aversion ($\lambda = 0.050$):** Severe fear of overcrowding drives participation down to **27.1%**, tightly tracking the theoretical equilibrium curve $p^*(\lambda)$.
 
 
- Conclusion & Key Takeaway
+### Conclusion & Key Takeaway
 The close alignment between the simulated entry rates (red) and the analytical equilibrium curve $p^*(\lambda)$ (navy) shows even without explicit knowledge of the underlying utility equations, rational firms update their beliefs through trial and error and naturally settle around the exact market-entry tipping point predicted by prospect theory. Ultimately, the model illustrates how even modest levels of psychological loss aversion are sufficient to deter aggressive market entry and mitigate overcrowding. Ultimately, the simulation underscores that when downside risks carry disproportionate psychological weight, fear of overcrowding acts as a natural stabilizing force in competitive markets
----
+
 
 ## How to Run
 
