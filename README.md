@@ -26,7 +26,7 @@ In a competitive market with three symmetric firms (A, B, and C), each firm deci
 
 As the loss-aversion coefficient ($\lambda$) increases, the psychological penalty of a market crash heavily outweighs monopoly gains, sharply depressing market participation:
 
-![Simulated Market Entry Rate vs. Loss Aversion](figure1.png)
+![Simulated Market Entry Rate vs. Loss Aversion](Screenshot 2026-11-21 at 11.06.16 PM.png)
 
 * **Fearless Baseline ($\lambda = 0.000$):** Without downside fear, firms enter at an aggressive **79.3%** rate[cite: 4, 6].
 * **Moderate Loss Aversion ($\lambda \approx 0.010$):** Entry rates drop to **41.2%** as loss penalties scale[cite: 4, 6].
