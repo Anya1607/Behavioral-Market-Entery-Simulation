@@ -17,7 +17,7 @@ In a competitive market with three symmetric firms (A, B, and C), each firm deci
 
 ### Core Mechanics
 * **Quadratic Loss Penalty:** Positive gains are evaluated linearly ($Utility(x) = x$), while financial losses are penalized quadratically and multiplied by the fear factor (lambda): ($U(x) = -\lambda x^2$) to reflect intensifying psychological aversion to losses.
-* **Adaptive Belief Updating:** Firms adjust their expectations of rival entry over 500 simulated rounds using exponential smoothing (`80%` prior belief + `20%` observed daily entry rate).
+* **Adaptive Belief Updating:** Firms adjust their expectations of rival entry over 500 simulated rounds using exponential smoothing (where`80%` is prior belief + `20%` is observed daily entry rate or future belief).
 * **Theoretical Equilibrium ($p^*$):** Derived by setting expected behavioral utility to zero, solving the quadratic equation to map the tipping point where potential gains balance loss-averse penalties.
 
 ---
@@ -26,11 +26,11 @@ In a competitive market with three symmetric firms (A, B, and C), each firm deci
 
 As the loss-aversion coefficient ($\lambda$) increases, the psychological penalty of a market crash heavily outweighs monopoly gains, sharply depressing market participation:
 
-![Simulated Market Entry Rate vs. Loss Aversion](Screenshot 2026-11-21 at 11.06.16 PM.png)
+![Simulated Market Entry Rate vs. Loss Aversion](Screenshot%202026-11-21%20at%2011.06.16%20PM.png)
 
-* **Fearless Baseline ($\lambda = 0.000$):** Without downside fear, firms enter at an aggressive **79.3%** rate[cite: 4, 6].
-* **Moderate Loss Aversion ($\lambda \approx 0.010$):** Entry rates drop to **41.2%** as loss penalties scale[cite: 4, 6].
-* **High Loss Aversion ($\lambda = 0.050$):** Severe fear of overcrowding drives participation down to **27.1%**, tightly tracking the theoretical equilibrium curve $p^*(\lambda)$[cite: 5, 6].
+* **Fearless Baseline ($\lambda = 0.000$):** Without downside fear, firms enter at an aggressive **79.3%** rate.
+* **Moderate Loss Aversion ($\lambda \approx 0.010$):** Entry rates drop to **41.2%** as loss penalties scale.
+* **High Loss Aversion ($\lambda = 0.050$):** Severe fear of overcrowding drives participation down to **27.1%**, tightly tracking the theoretical equilibrium curve $p^*(\lambda)$.
 
 ---
 
